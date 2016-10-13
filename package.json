@@ -1,15 +1,12 @@
 {
-  "name": "gulp-css-wrap",
+  "name": "l0-gulp-css-wrap",
   "description": "Wrap CSS rules in a namespace",
   "version": "0.1.2",
-  "homepage": "https://github.com/atskimura/gulp-css-wrap",
-  "author": {
-    "name": "Atsuhiko Kimura",
-    "email": "atskimura@gmail.com"
-  },
+  "homepage": "https://github.com/lukasstankiewicz/gulp-css-wrap",
+  "author": "Łukasz Stankiewiz <lukas.stankiewicz@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atskimura/gulp-css-wrap.git"
+    "url": "git+https://github.com/lukasstankiewicz/gulp-css-wrap.git"
   },
   "licenses": "MIT",
   "keywords": [
@@ -19,9 +16,8 @@
   "files": [
     "index.js"
   ],
-  "readmeFilename": "README.md",
   "dependencies": {
-    "css-wrap": "^0.1.0",
+    "l0-css-wrap": "^0.1.0",
     "gulp-util": "^3.0.6",
     "through2": "^2.0.0"
   },
@@ -31,6 +27,14 @@
     "should": "^7.0.2"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha -R spec"
-  }
+    "test": "mocha -R spec"
+  },
+  "bugs": {
+    "url": "https://github.com/lukasstankiewicz/gulp-css-wrap/issues"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 }

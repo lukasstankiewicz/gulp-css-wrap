@@ -1,7 +1,7 @@
 var gutil    = require('gulp-util');
 var PluginError = gutil.PluginError;
 var through  = require('through2');
-var css_wrap = require( 'css-wrap' );
+var css_wrap = require( 'l0-css-wrap' );
 
 const PLUGIN_NAME = 'gulp-slim';
 
