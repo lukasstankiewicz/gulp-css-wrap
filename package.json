@@ -1,7 +1,7 @@
 {
   "name": "l0-gulp-css-wrap",
   "description": "Wrap CSS rules in a namespace",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/lukasstankiewicz/gulp-css-wrap",
   "author": "Łukasz Stankiewiz <lukas.stankiewicz@gmail.com>",
   "repository": {
